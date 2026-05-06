@@ -1,0 +1,23 @@
+// Minimax Game Tree
+digraph {
+	Root [label="Root
+(Max)" fillcolor="#ffe0b2" shape=triangle style=filled]
+	Root -> A
+	Root -> B
+	A [label="A
+(Min)" fillcolor="#d1c4e9" shape=invtriangle style=filled]
+	A -> L1
+	A -> L2
+	B [label="B
+(Min)" fillcolor="#d1c4e9" shape=invtriangle style=filled]
+	B -> L3
+	B -> L4
+	L1 [label="L1
+(Val: 3)" fillcolor="#e0f7fa" shape=box style=filled]
+	L2 [label="L2
+(Val: 5)" fillcolor="#e0f7fa" shape=box style=filled]
+	L3 [label="L3
+(Val: 2)" fillcolor="#e0f7fa" shape=box style=filled]
+	L4 [label="L4
+(Val: 9)" fillcolor="#e0f7fa" shape=box style=filled]
+}
